@@ -1,0 +1,60 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #282c34; /* Adjust based on your color scheme */
+  }
+  
+  .login-logo {
+    width: 150px; /* Adjust based on your logo's size */
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 320px; /* Adjust the width as needed */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .form-group + .form-group {
+    margin-top: 15px;
+  }
+  
+  .login-button,
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px; /* Space between the login button and the register button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #61dafb; /* Login button color */
+    color: white;
+  }
+  
+  .register-button {
+    background-color: #f0f0f0; /* Register button color */
+    color: #333;
+  }
+  
+  .login-button:hover {
+    background-color: #007bff;
+  }
+  
+  .register-button:hover {
+    background-color: #dedede;
+  }
+  
+  .login-error {
+    color: #ff3860;
+    margin-top: 15px;
+  }
+  

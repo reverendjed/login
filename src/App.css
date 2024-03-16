@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+/* Form input fields styling */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"],
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  width: 100%; /* Ensure full-width inputs */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Button styling */
+button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb; /* Example primary color */
+  color: #fff;
+  cursor: pointer;
+  width: 100%; /* Match input fields width */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+  background-color: #007bff; /* Darker shade on hover */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Error message styling */
+.login-error {
+  color: #ff3860; /* Bright red for visibility */
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Additional classes for specific button styles if needed */
+.login-button, .register-button {
+  /* Additional specific styling for login and register buttons if needed */
 }
