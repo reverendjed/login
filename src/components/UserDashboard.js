@@ -84,7 +84,9 @@ const handleFileSelect = (event) => {
       </div>
       <div className="dashboard-menu">
         <ul>
-          <li>Count Fish</li>
+          <li>
+          <a href={"/test.html"}>Count Fish</a>
+          </li>
           <li>Environmental Data</li>
           <li>Database</li>
           <li><button onClick={goToAdminDashboard}>Admin Dashboard</button></li>
