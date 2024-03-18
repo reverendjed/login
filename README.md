@@ -1,3 +1,16 @@
+
+# Getting started from scratch
+
+To get started from scratch, do the following:
+```sh
+    git clone git@github.com:reverendjed/login.git
+    cd login
+    npm i
+    npm run build
+    npm run start
+```
+Ideally you should do the above someplace that doesn't have a `login` sub-directory so that the `git clone` command creates a new directory with fresh code from GitHub.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
